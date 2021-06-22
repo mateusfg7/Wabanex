@@ -13,3 +13,10 @@ element
 element
 |> List.update_at(1, &String.to_float/1)
 ```
+
+## Ecto
+
+Reset executed migration:
+```bash
+mix ecto.reset
+```
